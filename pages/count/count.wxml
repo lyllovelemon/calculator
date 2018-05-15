@@ -1,0 +1,40 @@
+<!--pages/count/count.wxml-->
+<view class='content'>
+  <view class='tab'>{{screenData}}</view>
+  <view class='num'>
+    <view class='calculator'>
+      <view class='row-main'>
+        <view class='row' bindtap='clickBtn' id='{{idc}}'>C</view>
+        <view class='row' bindtap='clickBtn' id='{{idb}}'>←</view>
+        <view class='row' bindtap='history'id='{{idt}}'>
+          <image src='../../images/watch.png'></image>
+        </view>
+        <view class='row' bindtap='clickBtn' id='{{idp}}'>+</view>
+      </view>
+      <view class='row-main'>
+        <view class='coloum' bindtap='clickBtn'id='{{id9}}'>9</view>
+        <view class='coloum' bindtap='clickBtn' id='{{id8}}'>8</view>
+        <view class='coloum' bindtap='clickBtn' id='{{id7}}'>7</view>
+        <view class='row' bindtap='clickBtn' id='{{idm}}'>-</view>
+      </view>
+      <view class='row-main'>
+        <view class='coloum' bindtap='clickBtn' id='{{id6}}'>6</view>
+        <view class='coloum' bindtap='clickBtn' id='{{id5}}'>5</view>
+        <view class='coloum' bindtap='clickBtn' id='{{id4}}' >4</view>
+        <view class='row' bindtap='clickBtn' id='{{idx}}'>×</view>
+      </view>
+      <view class='row-main'>
+        <view class='coloum' bindtap='clickBtn'  id='{{id3}}'>3</view>
+        <view class='coloum' bindtap='clickBtn'  id='{{id2}}'>2</view>
+        <view class='coloum' bindtap='clickBtn' id='{{id1}}'>1</view>
+        <view class='row' bindtap='clickBtn' id='{{idd}}'>÷</view>
+      </view>
+      <view class='row-main'>
+        <view class='coloum-2' bindtap='clickBtn' id='{{id0}}'>0</view>
+
+        <view class='coloum' bindtap='clickBtn' id='{{ido}}'>.</view>
+        <view class='row' bindtap='clickBtn' id='{{ide}}'>=</view>
+      </view>
+    </view>
+  </view>
+</view>
