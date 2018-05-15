@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/count/count",
+    "pages/history/history"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#DA7C0C",
+    "navigationBarTitleText": "简易计算器",
+    "navigationBarTextStyle":"white"
+  }
+}
